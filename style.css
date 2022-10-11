@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+}
+section {
+  background-color: #211b1b;
+  height: 100vh;
+}
+h1 {
+  color: #898983;
+  font-family: "Roboto";
+  font-size: 3rem;
+}
+
+.title {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  color: white;
+  justify-content: space-around;
+}
+
+.colm-one {
+  width: 30rem;
+}
+/* .colm{
+    flex-basis: 50%;
+} */
+.balance {
+  height: 25%;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.balance p {
+  font-size: 1.5rem;
+}
+.balance h3, .balance-span{
+  font-size: 4rem;
+  color: #286df1;
+}
+.income-expense {
+  display: flex;
+  justify-content: center;
+  background: #2e2b2b;
+  border-radius: 0.625rem;
+  padding: 0.313rem 0.625rem;
+}
+
+/* .income {
+  border-right: 0.1rem solid #b9c1c1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+} */
+.income-expense-item h3,span {
+    font-size: 3rem;
+}
+.income-expense-item h6 {
+  font-size: 1.25rem;
+}
+.income-color{
+    color: #47da44;
+}
+.expense-color{
+    color: #f41010;
+}
+/* .expense {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+} */
+
+.income-expense-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.incomee-border{
+    border-right: 0.1rem solid #b9c1c1;
+}
+/* .cash,.misc,.recharge,.book{
+    display: flex;
+    justify-content: space-between;
+    width: 21rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: #2E2B2B;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-right: 0.313rem solid #F41010 ;
+    color: #B9C1C1;
+}   */
+/* .cash {
+  border-right: 0.313rem solid #75e372;
+} */
+.transaction-title {
+  display: flex;
+  height: 5rem;
+  align-items: flex-end;
+  font-size: 1.5rem;
+}
+.form {
+  display: flex;
+}
+.form-main {
+  /* display: flex; */
+  width: 100%;
+  /* background: #2E2B2B; */
+  background: #2e2b2b;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0.625rem;
+  justify-content: center;
+}
+.transaction-button {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+.history h5 {
+  font-size: 1.5rem;
+  color: #b9c1c1;
+}
+.history {
+  width: 21rem;
+  border-bottom: 0.625rem;
+  margin-bottom: 0.938rem;
+  border-bottom: 0.1rem solid #b9c1c1;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  width: 21rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #2e2b2b;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #b9c1c1;
+}
+
+.expense-border {
+  border-right: 0.313rem solid #f41010;
+}
+.income-border{
+    border-right: 0.313rem solid #75e372; 
+}
+
+.colm-two {
+  margin-top: 2rem;
+}
+
+.form input {
+  height: 2rem;
+  width: 9.5rem;
+  margin-left: 1.25rem;
+  margin-right: 1.75rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid;
+  padding-left: 1rem;
+}
+
+.form select {
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+button {
+  width: 27rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem;
+  background-color: #06896a;
+  color: white;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  * {
+    font-size: 12px;
+  }
+  .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 70%;
+  }
+  .colm-two {
+    width: 30rem;
+  }
+  .history {
+    margin-left: 3rem;
+  }
+  .history-item{
+    margin-left: 3rem;
+  }
+}

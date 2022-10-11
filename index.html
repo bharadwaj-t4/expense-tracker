@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1>Expense Tracker</h1>
+        </div>
+        <div class="row">
+            <div class="colm-one">
+                <div class="balance">
+                    <p>Balance</p>
+                    <h3>₹<span class="balance-span">0</span></h3>
+                </div>
+                <div class="income-expense">
+                    <div class="income-expense-item incomee-border">
+                        <div>
+                            <h6>INCOME</h6>
+                            <h3 class="income-color">₹<span>0</span></h3>
+                        </div>
+                     
+                    </div>
+                    <div class="income-expense-item">
+                        <div>
+                            <h6>EXPENSE<h6>
+                            <h3 class="expense-color">₹<span>0</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="transaction-title">
+                    <p>Add new transaction</p>
+                </div>
+                    <div class="form-main">
+                        <div class="form">
+                            <input type="text" name="label" placeholder="label" id="label" value="">
+                            <select name="type" id="type">
+                                <option value="plus">+</option>
+                                <option value="minus">-</option>
+                            </select>
+                            <input type="number" name="amount" placeholder="₹ Amount" id="amount" value="">
+                         </div>
+                         <div class="transaction-button">
+                            <button type="button">Add Transaction</button>
+                         </div>
+                    </div>
+                </div>
+            <div class="colm-two">
+                <div class="history">
+                    <h5>History</h5>
+                </div>
+                <!-- <div class="history-item income-border">
+                    <h5>Cash</h5>
+                    <h5>+500</h5>
+                </div>
+                <div class="history-item expense-border">
+                    <h5>Book</h5>
+                    <h5>-45</h5>
+                </div>
+                <div class="history-item expense-border">
+                    <h5>Recharge</h5>
+                    <h5>-249</h5>
+                </div>
+                <div class="history-item expense-border">
+                    <h5>Miscellanious</h5>
+                    <h5>-205</h5>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
